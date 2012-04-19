@@ -1,0 +1,51 @@
+TODO - AccuRev SCM Integration for Vim
+
+N = new
+X = finished
+C = canceled
+
+
+Sun Aug 16 06:44:54 PDT 2009
+N multi-line comment entry w/ buffer; as user option
+N launch gui in windows in background
+
+Wed Aug 12 15:07:30 PDT 2009
+X refactor GetFilename to not use '%'
+N display promote warning of No-Op if issue required and not plugin enabled
+N change status bar to yellow if (overlap) ?
+X launch graphical merge on conflict
+N on defunct, error handle to prevent accidental delete
+N 'diff previous kept' - ideal to view changes after a merge
+
+
+Mon Aug 10 22:45:21 PDT 2009
+N group keep
+N implement sync view
+N refactor menus; activate/deactivate/contextual; nunmenu is global!
+N contextual menus for operations (eg. no 'add' for members); nunmenu is global!
+  - disable in group mode
+N toggleable settings; via buffer; eg promote by issue
+X add hostname to login prompt
+N new view for 'update'
+N consider loading element info initially; reduce stat calls (eid/status/etc)  
+X  add -L operations to actions; use workspace_root
+X user property to confirm empty comments
+
+Sun Apr 12 12:29:59 MDT 2009
+X implement login_on_startup; replaced with enable/disable
+
+Sat Jan 10 19:23:00 CST 2009
+C refactor redraw! into method
+N remove is_logged_in ?
+
+Mon Apr  7 16:28:42 PDT 2008
+N group add
+X customer request: don't chdir when doing :e <file>
+
+Sun Apr  6 21:58:11 PDT 2008
+X separate logout from 'don't load the plugin because VPN is too slow!' \
+  and don't log out of other sessions (e.g. cli / gui)
+  - fixed Sun Jan  4 09:59:23 PST 2009
+
+Fri Jan 25 16:25:18 PST 2008
+X default to require login; minimize downtime
